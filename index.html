@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>PawHouse | Cat Adoption</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+      <a href="#" class="logo-navbar"> 🐾 Paw<span>House</span> </a>
+
+      <div class="navbar-nav">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#cats">Kucing</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#">
+          <i data-feather="search"></i>
+        </a>
+
+        <a href="#">
+          <i data-feather="menu"></i>
+        </a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+      <div class="content">
+        <h1>Temukan Sahabat Berbulu Untuk Hari-Harimu 🐱</h1>
+
+        <p>
+          PawHouse membantu pecinta kucing menemukan, merawat, dan memberikan
+          rumah terbaik untuk kucing terlantar.
+        </p>
+
+        <a href="#cats" class="cta"> Lihat Kucing </a>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131"
+        />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+      <h2>Tentang PawHouse</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img
+            src="https://images.unsplash.com/photo-1573865526739-10659fec78a5"
+          />
+        </div>
+
+        <div class="content">
+          <h3>Rumah nyaman untuk sahabat kecil</h3>
+
+          <p>
+            PawHouse merupakan platform pecinta kucing yang menyediakan
+            informasi mengenai adopsi, perawatan, dan karakter kucing. Kami
+            percaya setiap kucing memiliki cerita dan membutuhkan keluarga yang
+            tepat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAT LIST -->
+
+    <section class="course" id="cats">
+      <h2>Kucing Siap Diadopsi</h2>
+
+      <p>Kenali karakter mereka dan temukan teman berbulu favoritmu.</p>
+
+      <div class="row" id="course-list"></div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+      <h2>Hubungi Kami</h2>
+
+      <p>Tertarik mengadopsi? Kirim pesan kepada PawHouse.</p>
+
+      <div class="row">
+        <form>
+          <div class="input-group">
+            <i data-feather="user"></i>
+
+            <input type="text" placeholder="Nama" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="mail"></i>
+
+            <input type="email" placeholder="Email" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="phone"></i>
+
+            <input type="number" placeholder="Nomor HP" />
+          </div>
+
+          <button class="btn">Ajukan Adopsi</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="socials">
+        <a href="#">
+          <i data-feather="instagram"></i>
+        </a>
+
+        <a href="#">
+          <i data-feather="twitter"></i>
+        </a>
+      </div>
+
+      <div class="links">
+        <a href="#home"> Beranda </a>
+
+        <a href="#about"> Tentang </a>
+
+        <a href="#cats"> Kucing </a>
+
+        <a href="#contact"> Kontak </a>
+      </div>
+
+      <p>Created by Risma Febriana | ©2026 PawHouse</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
