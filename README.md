@@ -2,11 +2,11 @@
 
 ## Identitas Mahasiswa
 
-Nama : Risma Febriana
+Nama : Lintang Ayu Maheswari
 
-NIM : (isi NIM kamu)
+NIM : 2400114
 
-Kelas : (isi kelas kamu)
+Kelas : 5B
 
 ## Deskripsi Project
 
